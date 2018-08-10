@@ -1,3 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: 'Montserrat', sans-serif; }
 
+html {
+  font-size: 10px; }
+
+body {
+  width: 100%;
+  background-color: black; }
+
+.zoom_container {
+  position: relative;
+  overflow: hidden; }
+  .zoom_container .zoom_img {
+    transition: all .6s ease;
+    max-width: 100%;
+    transform: scale(1.1);
+    opacity: .6; }
+    .zoom_container .zoom_img:hover {
+      transform: scale(1.2);
+      opacity: 1; }
+
+.btn {
+  font-size: 1.2rem;
+  letter-spacing: 0.3rem;
+  padding: .8rem;
+  border: .16rem solid white;
+  border-radius: 1.3em;
+  font-weight: bold;
+  transition: all .5s ease; }
+  .btn:hover {
+    background-color: rgba(255, 255, 255, 0.301);
+    color: #2ECA74; }
+
+header {
+  background-image: url("../img/glowneZdjecie.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 90rem;
+  width: 100%;
+  position: relative; }
+  header nav {
+    font-size: 1.6rem;
+    letter-spacing: 0.3rem;
+    width: 100%;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.281); }
+    header nav a.navbar-brand {
+      color: white;
+      font-size: 2rem;
+      font-weight: bold; }
+    header nav .navbar-collapse .navbar-nav a.nav-item {
+      color: white;
+      text-transform: uppercase;
+      transition: color .5s ease;
+      padding: 1rem;
+      padding-right: 2rem; }
+      header nav .navbar-collapse .navbar-nav a.nav-item:hover {
+        font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */

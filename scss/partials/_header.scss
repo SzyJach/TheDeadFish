@@ -1,0 +1,40 @@
+header {
+    background-image: url("../img/glowneZdjecie.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 90rem;
+    width: 100%;
+    position: relative;
+    nav {
+            font-size: 1.6rem;
+            letter-spacing: 0.3rem;
+            width: 100%;
+            color: white;
+            background-color: rgba(255, 255, 255, 0.281);
+
+            a.navbar-brand {
+                color: white;
+                font-size: 2rem;
+                font-weight: bold;
+            }
+
+
+            .navbar-collapse {
+                .navbar-nav {
+                    a.nav-item {
+                        color: white;
+                        text-transform: uppercase;
+                        transition: color .5s ease;
+                        padding: 1rem;
+                        padding-right: 2rem;
+
+                        &:hover {
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+    }
+}

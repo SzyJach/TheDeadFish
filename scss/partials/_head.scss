@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    width: 100%;
+    background-color: black;
+}
+
+.zoom_container {
+    position: relative;
+    overflow: hidden;
+    .zoom_img {
+        transition: all .6s ease;
+        max-width: 100%;
+        transform: scale(1.1);
+        opacity: .6;
+
+        &:hover {
+            transform: scale(1.2); //zoom
+            opacity: 1;
+        }
+    }
+   }
+
+   .btn {
+    font-size: 1.2rem;
+    letter-spacing: 0.3rem;
+    padding: .8rem;
+    border: .16rem solid white;
+    border-radius: 1.3em;
+    font-weight: bold;
+    transition: all .5s ease;
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.301);
+        color: #2ECA74;
+    }
+   }
