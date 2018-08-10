@@ -148,4 +148,21 @@ main h2 {
     font-size: 1.4rem;
     padding: 1.1rem; }
 
+@media all and (max-width: 760px) {
+  .logo {
+    text-align: center; }
+    .logo h1 {
+      font-size: 15rem; }
+    .logo p {
+      font-size: 3.5rem; } }
+@media all and (max-width: 463px) {
+  .logo h1 {
+    font-size: 9rem; }
+
+  .logo p {
+    font-size: 3rem; } }
+@media all and (max-width: 991px) {
+  #about_us p {
+    padding-top: 4rem; } }
+
 /*# sourceMappingURL=style.css.map */
