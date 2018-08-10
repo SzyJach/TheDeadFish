@@ -66,4 +66,86 @@ header {
       header nav .navbar-collapse .navbar-nav a.nav-item:hover {
         font-weight: bold; }
 
+main h2 {
+  font-size: 5rem;
+  font-weight: 200;
+  color: white;
+  padding: 4rem;
+  text-align: center;
+  letter-spacing: .2rem; }
+
+#menu {
+  font-size: 1.6rem; }
+
+#about {
+  padding: 1rem;
+  margin: 1%; }
+  #about .img_about {
+    border: .4rem solid white;
+    max-height: 50rem; }
+  #about p {
+    font-size: 1.4rem;
+    color: white;
+    text-align: justify;
+    padding-left: 2rem; }
+
+#contact {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center; }
+  #contact::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(135deg, white 10%, white 100%);
+    opacity: 1; }
+  #contact h3 {
+    font-size: 2rem;
+    letter-spacing: .4rem;
+    font-weight: bolder;
+    padding: 1.5rem;
+    text-transform: uppercase; }
+  #contact h2 {
+    color: black; }
+  #contact .contact_data {
+    letter-spacing: .3rem; }
+    #contact .contact_data p {
+      font-size: 1.4rem;
+      line-height: 2.5rem; }
+  #contact form {
+    font-size: 1.2rem; }
+    #contact form .btn {
+      margin: 0 auto;
+      width: 100%; }
+  #contact .row {
+    padding-bottom: 3rem; }
+
+.container-fluid {
+  padding: 0; }
+
+.iframe {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+  .iframe iframe {
+    width: 100%; }
+
+.filler {
+  width: 100%;
+  display: block;
+  background-image: linear-gradient(135deg, #81FBB8 10%, #28C76F 100%);
+  padding: 2%; }
+  .filler p {
+    color: white;
+    font-style: italic;
+    font-size: 2.8rem;
+    font-family: 'Clicker Script', cursive; }
+  .filler .btn {
+    font-size: 1.4rem;
+    padding: 1.1rem; }
+
 /*# sourceMappingURL=style.css.map */
